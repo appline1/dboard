@@ -2,6 +2,7 @@ from django.contrib import admin
 from .models import *
 
 admin.site.register(ProgrammingLanguage)
+admin.site.register(Programming)
 admin.site.register(BankAccount)
 admin.site.register(Person)
 admin.site.register(ProgrammingTask)

@@ -37,7 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'smart_selects',
+    'rest_framework',
     'accts',
+    
 ]
 
 MIDDLEWARE = [
@@ -81,6 +84,7 @@ DATABASES = {
     }
 }
 
+USE_DJANGO_JQUERY = True
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
